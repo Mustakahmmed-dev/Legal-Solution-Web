@@ -18,15 +18,16 @@
         .poppins-font{
             font-family: "Poppins", serif;
         }
-        .eb-garamond-font{
+        .eg-garamond-font{
             font-family: "EB Garamond", serif;
         }
     </style>
 </head>
 
 <body>
-    <header class=" max-w-[90%] lg:max-w-[80%] mx-auto">
-        <nav class="flex-col md:flex-row gap-10 flex justify-between items-center my-16 text-[#707070] poppins-font">
+    <header class=" ">
+        <div class="max-w-[90%] lg:max-w-[80%] mx-auto">
+            <nav class="flex-col md:flex-row gap-10 flex justify-between items-center my-16 text-[#707070] poppins-font">
                 <img class="" src="images/logo2.png" alt="">
             <ul class="flex gap-5 font-normal">
                 <li><a href="">Home</a></li>
@@ -36,8 +37,21 @@
                 <li><a href="">Contact Us <i class="fa-regular fa-greater-than ml-1"></i></a></li>
             </ul>
             <button class="text-xl font-semibold bg-[#B68C5A] rounded py-4 px-5 text-white">Free Consultation</button>
-        </nav>
+            </nav>
+        </div>
         
+
+        <!-- Hero -->
+         <div class=" md:max-w-[80%] mx-auto bg-[url(images/banner.png)] bg-cover bg-no-repeat">
+            <div class="space-y-6 max-w-[80%] md:max-w-[50%] text-center text-white mx-auto py-40 ">
+                <h1 class="text-3xl md:text-6xl font-extrabold eg-garamond-font">We Provide Effective Legal Solutions</h1>
+                <p class="text-[#E7E7E7] font-normal">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex-col md:flex-row flex gap-4">
+                    <input class="p-2 md:p-4 text-gray-800" type="text" placeholder="Search your queries">
+                    <button class="py-2 md:py-4 md:px-8 hover:bg-blue-500 hover:text-white font-semibold transition-all rounded bg-white text-black">Search</button>
+                </div>
+             </div>
+         </div>
     </header>
     <main>
 
